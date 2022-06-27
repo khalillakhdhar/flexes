@@ -5,10 +5,12 @@ export default class HeightWidth extends Component {
   return (
   <View style={styles.container}>
     <Text> here is the container</Text>
-  <View style={styles.powderblue} />
-  <View style={styles.skyblue} />
-  <View style={styles.steelblue} />
-  <Text> ending the container</Text>
+  <View style={styles.powderblue} ><Text> this is my powder</Text></View>
+  <View style={styles.skyblue} ><Text style={{color:'#00f'}}>this is my sky</Text></View>
+  <View style={styles.steelblue} >
+    <Text style={{color:'#fff'}}>this is my steel</Text>
+  </View>
+  <Text > ending the container</Text>
   </View>
   );
   }
@@ -28,5 +30,6 @@ export default class HeightWidth extends Component {
     steelblue:{
     flex:3,
     backgroundColor: 'steelblue',
+    
     },
     })
